@@ -62,5 +62,5 @@ def graficar_caminos(N, num_trayectorias=10):
         print("No hay trayectorias que se mantengan en el eje positivo.")
 
 # Parámetro N
-graficar_caminos(N=50, num_trayectorias=1000)
+graficar_caminos(N=1000, num_trayectorias=1000)
 

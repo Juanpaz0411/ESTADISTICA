@@ -33,6 +33,6 @@ def comparar_probabilidades(n_max, muestras_lista):
 
 # Parámetros
 n_max = 100  # Máximo número de pasos
-muestras_lista = [50, 500, 1000, 10000, 50000 ]  # Diferentes tamaños de simulaciones
+muestras_lista = [50,500,1000,10000,50000]  # Diferentes tamaños de simulaciones
 
 comparar_probabilidades(n_max, muestras_lista)
