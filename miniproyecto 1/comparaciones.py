@@ -24,7 +24,7 @@ def comparar_probabilidades(n_max, muestras_lista):
         razones = [probabilidad_simulada(n, muestras) / probabilidad_teorica(n) for n in range(1, n_max + 1)]
         plt.plot(range(1, n_max + 1), razones, label=f'caminos={muestras}')
 
-    plt.xlabel('Número de pasos (2N)')
+    plt.xlabel('Número de pasos')
     plt.ylabel('Relación Simulada/Teórica')
     plt.title('Comparación de Probabilidades')
     plt.legend()

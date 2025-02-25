@@ -23,7 +23,7 @@ def calcular_probabilidades(steps, num_trayectorias=1000):
 
 # Valores de 2N directamente
 steps_values = [40, 100, 200, 2000, 20000]  # Esto representa 2*N
-num_trayectorias = 1000
+num_trayectorias = 10000
 
 # Crear la tabla de resultados
 datos = [calcular_probabilidades(steps, num_trayectorias) for steps in steps_values]
